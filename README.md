@@ -11,7 +11,7 @@
 
 ## Author
 =======
-alexstep.com
+http://alexstep.com
 ====================
 
 The pack of 1c-bitrix API snippets for sublime-text-2

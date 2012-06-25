@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+CUser::GetParam('${1:EMAIL|UF_PARNAME|AND_OTHER}')
+]]></content>
+	<tabTrigger>CUser::GetParam</tabTrigger>
+	<description>Bitrix CUser::GetParam</description>
+	<scope>source.php</scope>
+</snippet>

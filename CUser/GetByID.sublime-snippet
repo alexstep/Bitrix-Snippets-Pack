@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$rsUser = CUser::GetByID(${1:\$id});
+\$arUser = \$rsUser->Fetch();
+]]></content>
+	<tabTrigger>CUser::GetByID</tabTrigger>
+	<description>Bitrix CUser::GetByID</description>
+	<scope>source.php</scope>
+</snippet>

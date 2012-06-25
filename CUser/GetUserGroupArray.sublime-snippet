@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+CUser::GetUserGroupArray()
+]]></content>
+	<tabTrigger>CUser::GetUserGroupArray</tabTrigger>
+	<description>Bitrix CUser::GetUserGroupArray</description>
+	<scope>source.php</scope>
+</snippet>

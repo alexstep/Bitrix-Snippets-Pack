@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+// help: http://dev.1c-bitrix.ru/api_help/main/reference/cphpcache/initcache.php
+\$obCache = new CPHPCache; 
+
+\$life_time = ${1:30}*60; // время кеширования - ${1:30} минут
+\$cache_id = "${2:unique_id}"; // угникальный идентификатор кэша
+
+// если кеш есть и он ещё не истек то
+if(\$obCache->InitCache(\$life_time, \$cache_id, "/${3:path}/")){
+	// получаем закешированные переменные
+	\$vars = \$obCache->GetVars();
+	\$${4:items} = \$vars["${4:items}"];
+
+// начинаем буферизирование вывода
+} else if(\$obCache->StartDataCache()){
+	// иначе обращаемся к базе
+	# \$${4:items} = #some_code...;
+
+	// записываем предварительно буферизированный вывод в файл кеша
+	// вместе с дополнительной переменной
+	\$obCache->EndDataCache(array(
+		"${4:items}" => \$${4:items}
+	)); 
+}
+]]></content>
+	<tabTrigger>cache:php</tabTrigger>
+	<description>Bitrix CPHPCache</description>
+	<scope>source.php</scope>
+</snippet>

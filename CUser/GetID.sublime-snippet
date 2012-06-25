@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+CUser::GetID()
+]]></content>
+	<tabTrigger>CUser::GetID</tabTrigger>
+	<description>Bitrix CUser::GetID</description>
+	<scope>source.php</scope>
+</snippet>

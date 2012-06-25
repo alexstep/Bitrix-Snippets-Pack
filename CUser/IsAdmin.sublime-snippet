@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+CUser::IsAdmin()
+]]></content>
+	<tabTrigger>CUser::IsAdmin</tabTrigger>
+	<description>Bitrix CUser::IsAdmin</description>
+	<scope>source.php</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$arGroups = CUser::GetUserGroup( ${1:CUser::GetID()} );
+\$arGroups[] = ${2:\$group_id};
+CUser::SetUserGroup(${1:CUser::GetID()}, \$arGroups);
+]]></content>
+	<tabTrigger>CUser::SetUserGroup</tabTrigger>
+	<description>Bitrix CUser::SetUserGroup</description>
+	<scope>source.php</scope>
+</snippet>

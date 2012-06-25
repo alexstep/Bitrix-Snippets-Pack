@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+CUser::IsAuthorized()
+]]></content>
+	<tabTrigger>CUser::IsAuthorized</tabTrigger>
+	<description>Bitrix CUser::IsAuthorized</description>
+	<scope>source.php</scope>
+</snippet>

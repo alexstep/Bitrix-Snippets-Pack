@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+// help: http://dev.1c-bitrix.ru/api_help/main/functions/other/bxclearcache.php
+BXClearCache(true, "/${1:path}/");
+]]></content>
+	<tabTrigger>BXClearCache:h</tabTrigger>
+	<description>Bitrix BXClearCache</description>
+	<scope>source.php</scope>
+</snippet>

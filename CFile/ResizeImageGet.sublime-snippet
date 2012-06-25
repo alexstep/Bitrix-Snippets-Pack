@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+// help: http://dev.1c-bitrix.ru/api_help/main/reference/cfile/resizeimageget.php
+\$thumb = CFile::ResizeImageGet(\$${1:file_id}, array('width'=>${2:100}, 'height'=>${3:100}), BX_RESIZE_IMAGE_PROPORTIONAL_ALT, true);     
+/*
+    BX_RESIZE_IMAGE_EXACT - масштабирует в прямоугольник $arSize без сохранения пропорций;
+    BX_RESIZE_IMAGE_PROPORTIONAL - масштабирует с сохранением пропорций, размер ограничивается $arSize;
+    BX_RESIZE_IMAGE_PROPORTIONAL_ALT - масштабирует с сохранением пропорций, размер ограничивается \$arSize, улучшенна обработка вертикальных картинок.
+*/
+]]></content>
+	<tabTrigger>ResizeImageGet:h</tabTrigger>
+	<description>Bitrix CFile::ResizeImageGet</description>
+	<scope>source.php</scope>
+</snippet>

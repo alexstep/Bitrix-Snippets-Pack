@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+CUser::GetLastName()
+]]></content>
+	<tabTrigger>CUser::GetLastName</tabTrigger>
+	<description>Bitrix CUser::GetLastName</description>
+	<scope>source.php</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\$obCache = new CPageCache; 
+if(\$obCache->StartDataCache(${1:life_time}, '${2:unique_id}', '${3:/cache_path/}')){
+	# кешируемая часть
+\$obCache->EndDataCache(); }
+]]></content>
+	<tabTrigger>cache:html</tabTrigger>
+	<description>Bitrix CPageCache</description>
+	<scope>source.php</scope>
+</snippet>

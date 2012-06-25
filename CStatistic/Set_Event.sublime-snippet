@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+// http://www.bitrixonrails.ru/publications/63/?sphrase_id=74823
+if(CModule::IncludeModule("statistic") && intval(\$_SESSION["SESS_SEARCHER_ID"]) <= 0){ 
+	CStatistic::Set_Event('${1:event_1}', '${2:event_2}', '${3:event_3}');      
+}
+]]></content>
+	<tabTrigger>CStatistic::Set_Event</tabTrigger>
+	<description>Bitrix CStatistic::Set_Event</description>
+	<scope>source.php</scope>
+</snippet>

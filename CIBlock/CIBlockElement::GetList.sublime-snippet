@@ -13,12 +13,12 @@
 	//'DATE_ACTIVE'=>'',
 	'INCLUDE_SUBSECTIONS'=>'Y', 'DEPTH_LEVEL'=>3,
 );
-\$${2:res} = CIBlockElement::GetList(\$arSort, \$arFilter, false, array("nTopCount"=>${4:99}, "nPageSize"=>${5:10} ), \$arSelect);
+\$${2:res} = CIBlockElement::GetList(\$arSort, \$arFilter, false, array("nTopCount"=>${4:999}, "nPageSize"=>${5:10} ), \$arSelect);
 while(\$${3:ar_fields} = \$${2:res}->GetNext(true,false)){
 	# print_r( \$${3:ar_fields} );
 }
 ]]></content>
-	<tabTrigger>CIBlockElement::GetList:h</tabTrigger>
+	<tabTrigger>CIBlockElement::GetList</tabTrigger>
 	<description>Bitrix CIBlockElement::GetList</description>
 	<scope>source.php</scope>
 </snippet>

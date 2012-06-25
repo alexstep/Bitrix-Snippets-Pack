@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [Sublime Text Bitrix API Snippets]
 
 ========================================

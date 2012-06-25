@@ -4,14 +4,15 @@
 ========================================
 
 ## Installation
-
+Скопировать файлы в каталог пакетов sublime-text-2, например в 
+/home/username/.config/sublime-text-2/Packages/Bitrix API Snippets
 
 ## License
 
 
 ## Author
 =======
-Bitrix-Snippets-Pack
+alexstep.com
 ====================
 
 The pack of 1c-bitrix API snippets for sublime-text-2

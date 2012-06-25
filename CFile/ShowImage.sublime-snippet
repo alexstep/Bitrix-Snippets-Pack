@@ -2,10 +2,8 @@
 	<content><![CDATA[
 // help: http://dev.1c-bitrix.ru/api_help/main/reference/cfile/showimage.php
 echo CFile::ShowImage(\$${1:str_IMAGE_ID}, ${2:200}, ${3:200}, ' ${4:alt=""} ', '', ${5:false});
-
-
 ]]></content>
-	<tabTrigger>ShowImage:h</tabTrigger>
+	<tabTrigger>ShowImage</tabTrigger>
 	<description>Bitrix CFile::ShowImage</description>
 	<scope>source.php</scope>
 </snippet>

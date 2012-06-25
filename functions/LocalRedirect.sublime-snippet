@@ -3,7 +3,7 @@
 // help: http://dev.1c-bitrix.ru/api_help/main/functions/other/localredirect.php
 LocalRedirect("/${1:404.php}");
 ]]></content>
-	<tabTrigger>LocalRedirect:h</tabTrigger>
+	<tabTrigger>LocalRedirect</tabTrigger>
 	<description>Bitrix LocalRedirect</description>
 	<scope>source.php</scope>
 </snippet>

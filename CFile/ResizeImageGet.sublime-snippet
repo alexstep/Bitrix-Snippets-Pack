@@ -8,7 +8,7 @@
     BX_RESIZE_IMAGE_PROPORTIONAL_ALT - масштабирует с сохранением пропорций, размер ограничивается \$arSize, улучшенна обработка вертикальных картинок.
 */
 ]]></content>
-	<tabTrigger>ResizeImageGet:h</tabTrigger>
+	<tabTrigger>ResizeImageGet</tabTrigger>
 	<description>Bitrix CFile::ResizeImageGet</description>
 	<scope>source.php</scope>
 </snippet>

@@ -2,16 +2,18 @@
 	<content><![CDATA[
 // help: http://dev.1c-bitrix.ru/api_help/iblock/classes/ciblockelement/getlist.php
 \$arSelect = array( 
-	'*',
-	//'ID', 'CODE', 'NAME', 'SORT', 'PREVIEW_TEXT', 'PREVIEW_PICTURE', 'DATE_CREATE', 'DATE_ACTIVE_FROM', 
+	//'*',
+	'ID', 'CODE', 'NAME', // 'SORT', 'PREVIEW_TEXT', 'PREVIEW_PICTURE', 'DATE_CREATE', 'DATE_ACTIVE_FROM', 
 	//'PROPERTY_*',
 );
-\$arSort = array( 'SORT'=>'ASC','DATE_ACTIVE_FROM'=>'DESC' );
+\$arSort = array( 
+	//'SORT'=>'ASC','DATE_ACTIVE_FROM'=>'DESC' 
+);
 \$arFilter = array(
 	'IBLOCK_ID'=>\$${1:IBLOCK_ID},
 	'ACTIVE'=>'Y',
 	//'DATE_ACTIVE'=>'',
-	'INCLUDE_SUBSECTIONS'=>'Y', 'DEPTH_LEVEL'=>3,
+	//'INCLUDE_SUBSECTIONS'=>'Y', 'DEPTH_LEVEL'=>3,
 );
 \$${2:res} = CIBlockElement::GetList(\$arSort, \$arFilter, false, array("nTopCount"=>${4:999}, "nPageSize"=>${5:10} ), \$arSelect);
 while(\$${3:ar_fields} = \$${2:res}->GetNext(true,false)){

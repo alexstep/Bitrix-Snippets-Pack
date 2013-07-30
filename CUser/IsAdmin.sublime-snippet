@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-CUser::IsAdmin()
+\$USER->IsAdmin()
 ]]></content>
-	<tabTrigger>\$USER->IsAdmin</tabTrigger>
+	<tabTrigger>CUser::IsAdmin</tabTrigger>
 	<description>Bitrix CUser::IsAdmin</description>
 	<scope>source.php</scope>
 </snippet>
